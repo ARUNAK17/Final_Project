@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "arun@gmail.com",
+      "password": "$2a$10$Wva.cLXuUaN0l38pesSO7eBqMYg6bDv63ncaq8TWtUuRkpoQYJlai",
+      "username": "arun",
+      "type": "user",
+      "lastname": "rr",
+      "id": 1
+    },
+    {
+      "email": "darun@gmail.com",
+      "password": "$2a$10$A9WZGJnwZrGJSb8TYZARYu/nE6T8hgO1zBzyZk6pC665uP7leW/EC",
+      "username": "imel",
+      "type": "admin",
+      "lastname": "As",
+      "id": 2
+    }
+  ]
+}

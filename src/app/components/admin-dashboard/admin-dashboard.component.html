@@ -1,0 +1,16 @@
+<div class="appointment-list">
+  <div class="appointment-item" *ngFor="let x of status" >
+    <div class="item-header">
+      <h3>Name: {{ x.name }}</h3>
+      <p>Email: {{ x.email }}</p>
+      <p>Phone: {{ x.phone }}</p>
+      <p>Date: {{ x.date }}</p>
+      <p>Speciality: {{ x.specialty }}</p>
+      <p>Gender: {{ x.gender }}</p>
+      <p>Status: {{ x.status }}</p>
+    </div>
+    <div class="item-action">
+      <button *ngIf="x.status === 'Pending'" (click)="approveAppointment(x)">Approve</button>
+    </div>
+  </div>
+</div>

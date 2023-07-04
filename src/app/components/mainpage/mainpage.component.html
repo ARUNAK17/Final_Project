@@ -1,0 +1,49 @@
+<div class="form-group1">
+<form  (ngSubmit)="bookAppointment()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" class="form-control" [(ngModel)]="rname" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" class="form-control" [(ngModel)]="remail" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <select id="gender" class="form-control" [(ngModel)]="rgender" required name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" class="form-control" [(ngModel)]="rphone" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="specialty">Specialty</label>
+      <select id="specialty" class="form-control" [(ngModel)]="rspecialty" required name="speciality">
+        <option value="">General</option>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Dermatology">Dermatology</option>
+        <option value="Orthopedics">Orthopedics</option>
+      </select>
+    </div>
+  
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input type="date" id="date" class="form-control" [(ngModel)]="rdate" required name="date">
+    </div>
+  
+    <div class="form-group">
+      <label for="message">Appointment details</label>
+      <textarea id="message" class="form-control"   [(ngModel)]="rmessage" rows="4" name="message"></textarea>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Book Appointment</button>
+  </form>
+  
+  </div>
+  
