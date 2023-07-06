@@ -1,0 +1,28 @@
+<div class="login-container">
+<div class="form-group2">
+    <h2>New User Registration</h2>
+    <form  (ngSubmit)="register()" style="background: url(http://localhost:82/hero-image.jpg);">
+        <div class="form-group">
+          <label for="username">Name</label>
+          <input type="text" id="username" name="username" class="form-control" [(ngModel)]="rusername" required>
+        </div>
+        <div class="form-group">
+            <label for="lastname">Lastname</label>
+            <input type="text" id="lastname" name="lastname" class="form-control" [(ngModel)]="rlastname" required>
+          </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" [(ngModel)]="remail" required>
+        </div>
+      
+        <div class="form-group">
+            <label for="type">Password</label>
+            <input type="password" id="password" name="password" class="form-control" [(ngModel)]="rpassword" required>
+          </div>
+      
+        <button type="submit" routerLink="/login" class="btn">Register</button>
+      </form>
+      
+      </div>
+    </div>

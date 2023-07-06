@@ -1,0 +1,74 @@
+mat-card {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+
+mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.button #h2 {
+  margin-top: 10px;
+}
+
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.error {
+  padding: 16px;
+  width: 300px;
+  color: white;
+  background-color: red;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+mat-form-field {
+  width: 100%;
+}
+
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.register-link {
+  color: #0070ba;
+  text-decoration: none;
+  margin-left: 8px;
+}
+.login-container{
+  background: url(http://localhost:82/bg-image.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
